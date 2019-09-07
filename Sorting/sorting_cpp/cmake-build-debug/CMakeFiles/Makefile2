@@ -70,7 +70,7 @@ CMAKE_BINARY_DIR = C:\Users\intje\Documents\GitHub\Learning_Algorithm\Sorting\so
 CMakeFiles/sorting_cpp.dir/all:
 	$(MAKE) -f CMakeFiles\sorting_cpp.dir\build.make CMakeFiles/sorting_cpp.dir/depend
 	$(MAKE) -f CMakeFiles\sorting_cpp.dir\build.make CMakeFiles/sorting_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\intje\Documents\GitHub\Learning_Algorithm\Sorting\sorting_cpp\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target sorting_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\intje\Documents\GitHub\Learning_Algorithm\Sorting\sorting_cpp\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target sorting_cpp"
 .PHONY : CMakeFiles/sorting_cpp.dir/all
 
 # Include target in all.
@@ -80,7 +80,7 @@ all: CMakeFiles/sorting_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/sorting_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\intje\Documents\GitHub\Learning_Algorithm\Sorting\sorting_cpp\cmake-build-debug\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\intje\Documents\GitHub\Learning_Algorithm\Sorting\sorting_cpp\cmake-build-debug\CMakeFiles 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/sorting_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\intje\Documents\GitHub\Learning_Algorithm\Sorting\sorting_cpp\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/sorting_cpp.dir/rule

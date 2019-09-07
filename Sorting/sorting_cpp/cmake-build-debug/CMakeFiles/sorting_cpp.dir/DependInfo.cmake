@@ -4,7 +4,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/intje/Documents/GitHub/Learning_Algorithm/Sorting/sorting_cpp/BubbleSort.cpp" "C:/Users/intje/Documents/GitHub/Learning_Algorithm/Sorting/sorting_cpp/cmake-build-debug/CMakeFiles/sorting_cpp.dir/BubbleSort.cpp.obj"
   "C:/Users/intje/Documents/GitHub/Learning_Algorithm/Sorting/sorting_cpp/main.cpp" "C:/Users/intje/Documents/GitHub/Learning_Algorithm/Sorting/sorting_cpp/cmake-build-debug/CMakeFiles/sorting_cpp.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

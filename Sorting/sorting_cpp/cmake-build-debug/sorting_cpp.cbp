@@ -82,9 +82,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/intje/Documents/GitHub/Learning_Algorithm/Sorting/sorting_cpp/BubbleSort.cpp">
-			<Option target="sorting_cpp"/>
-		</Unit>
 		<Unit filename="C:/Users/intje/Documents/GitHub/Learning_Algorithm/Sorting/sorting_cpp/BubbleSort.h">
 			<Option target="sorting_cpp"/>
 		</Unit>

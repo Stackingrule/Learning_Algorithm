@@ -122,33 +122,6 @@ sorting_cpp/fast:
 	$(MAKE) -f CMakeFiles\sorting_cpp.dir\build.make CMakeFiles/sorting_cpp.dir/build
 .PHONY : sorting_cpp/fast
 
-BubbleSort.obj: BubbleSort.cpp.obj
-
-.PHONY : BubbleSort.obj
-
-# target to build an object file
-BubbleSort.cpp.obj:
-	$(MAKE) -f CMakeFiles\sorting_cpp.dir\build.make CMakeFiles/sorting_cpp.dir/BubbleSort.cpp.obj
-.PHONY : BubbleSort.cpp.obj
-
-BubbleSort.i: BubbleSort.cpp.i
-
-.PHONY : BubbleSort.i
-
-# target to preprocess a source file
-BubbleSort.cpp.i:
-	$(MAKE) -f CMakeFiles\sorting_cpp.dir\build.make CMakeFiles/sorting_cpp.dir/BubbleSort.cpp.i
-.PHONY : BubbleSort.cpp.i
-
-BubbleSort.s: BubbleSort.cpp.s
-
-.PHONY : BubbleSort.s
-
-# target to generate assembly for a file
-BubbleSort.cpp.s:
-	$(MAKE) -f CMakeFiles\sorting_cpp.dir\build.make CMakeFiles/sorting_cpp.dir/BubbleSort.cpp.s
-.PHONY : BubbleSort.cpp.s
-
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -185,9 +158,6 @@ help:
 	@echo ... sorting_cpp
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... BubbleSort.obj
-	@echo ... BubbleSort.i
-	@echo ... BubbleSort.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

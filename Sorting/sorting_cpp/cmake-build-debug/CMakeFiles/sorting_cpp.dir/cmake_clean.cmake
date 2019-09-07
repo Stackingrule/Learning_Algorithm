@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/sorting_cpp.dir/main.cpp.obj"
-  "CMakeFiles/sorting_cpp.dir/BubbleSort.cpp.obj"
   "sorting_cpp.pdb"
   "sorting_cpp.exe"
   "sorting_cpp.exe.manifest"
