@@ -2,6 +2,7 @@
 #include "ShakerSort.h"
 #include "SelectionSort.h"
 #include "InsertSort.h"
+#include "MergeSortBasic.h"
 #include <iostream>
 using namespace std;
 
@@ -13,6 +14,7 @@ int main() {
     int arry4[10] = {9, 8, 7, 6, 5, 4, 3, 2, 1, 0};
     int arry5[10] = {21, 11, 31, 91, 41, 81, 20, 50, 40, 0};
     int arry6[10] = {21, 11, 31, 91, 41, 81, 20, 50, 40, 0};
+    int arry7[10] = {9, 8, 7, 6, 5, 4, 3, 2, 1, 0};
  
     BubbleSortA(arry1, 10);
     BubbleSortB(arry2, 10);
@@ -20,9 +22,10 @@ int main() {
     SelectionSort(arry4, 10);
     InsertSort(arry5, 10);
     BinaryInsertSort(arry6, 10);
+    MergeSortBasic::MergeSort(arry7, 10);
 
     for(int i =0; i < 10; i++) {
-        cout << arry6[i] << " ";
+        cout << arry7[i] << " ";
     }
     cout << endl;
     return 0;

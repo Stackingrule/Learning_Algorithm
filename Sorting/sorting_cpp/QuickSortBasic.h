@@ -1,0 +1,8 @@
+//
+// Created by intje on 2019/9/20.
+//
+
+#ifndef SORTING_CPP_QUICKSORTBASIC_H
+#define SORTING_CPP_QUICKSORTBASIC_H
+
+#endif //SORTING_CPP_QUICKSORTBASIC_H

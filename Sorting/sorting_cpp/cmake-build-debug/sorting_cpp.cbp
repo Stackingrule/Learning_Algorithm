@@ -88,6 +88,18 @@
 		<Unit filename="C:/Users/intje/Documents/GitHub/Learning_Algorithm/Sorting/sorting_cpp/InsertSort.h">
 			<Option target="sorting_cpp"/>
 		</Unit>
+		<Unit filename="C:/Users/intje/Documents/GitHub/Learning_Algorithm/Sorting/sorting_cpp/MergeSort.h">
+			<Option target="sorting_cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/intje/Documents/GitHub/Learning_Algorithm/Sorting/sorting_cpp/MergeSortBasic.h">
+			<Option target="sorting_cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/intje/Documents/GitHub/Learning_Algorithm/Sorting/sorting_cpp/MergeSortBottomUp.h">
+			<Option target="sorting_cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/intje/Documents/GitHub/Learning_Algorithm/Sorting/sorting_cpp/QuickSortBasic.h">
+			<Option target="sorting_cpp"/>
+		</Unit>
 		<Unit filename="C:/Users/intje/Documents/GitHub/Learning_Algorithm/Sorting/sorting_cpp/SelectionSort.h">
 			<Option target="sorting_cpp"/>
 		</Unit>
