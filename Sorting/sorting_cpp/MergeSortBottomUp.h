@@ -41,7 +41,7 @@ namespace MergeSortBottomUp {
 	template<typename T>
 	void MergeSort(T A[], int n) {
 		for(int size = 1; size <= n; size += size) 
-			for(int i = 0; i + size < n; i++) {
+			for(int i = 0; i + size < n; i += size + size) {
 				merge(A, i, i + size - 1, min(i + size + size - 1, n - 1));
 			}
 	}

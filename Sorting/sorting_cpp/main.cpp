@@ -3,6 +3,7 @@
 #include "SelectionSort.h"
 #include "InsertSort.h"
 #include "MergeSortBasic.h"
+#include "QuickSortBasic.h"
 #include <iostream>
 using namespace std;
 
