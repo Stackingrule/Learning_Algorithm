@@ -1,42 +1,24 @@
 package Bag;
 
-public class BagInterface<T>
+public interface BagInterface<T>
 {
-    public int getCurrentSize() {
-        return 0;
-    }
+    public int getCurrentSize();
 
-    public boolean isEmpty() {
-        return false;
-    }
+    public boolean isEmpty();
 
-    public boolean add(T newEntry) {
-        return false;
-    }
+    public boolean add(T newEntry);
 
-    public T remove() {
-        return null;
-    }
+    public T remove();
 
-    public boolean remove(T anEntry) {
-        return false;
-    }
+    public boolean remove(T anEntry);
 
-    public void clear() {
+    public void clear();
 
-    }
+    public int getFrequencyOf(T anEntry);
 
-    public int getFrequencyOf(T anEntry) {
-        return 0;
-    }
+    public boolean contains(T anEntry);
 
-    public boolean contains(T anEntry) {
-        return false;
-    }
-
-    public T[] toArray() {
-        return null;
-    }
+    public T[] toArray();
 
 } // end BagInterface
 

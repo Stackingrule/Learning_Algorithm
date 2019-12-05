@@ -1,10 +1,28 @@
 package Bag;
+import java.lang.*;
 
-public class ArrayBag<T> extends BagInterface<T> {
+public class ArrayBag<T> implements BagInterface<T>
+{
 
     private final T[] bag;
     private int numberOfEntries;
     private static final int DEFAULT_CAPACITY = 25;
+
+    @Override
+    public T remove() {
+        return ;
+
+    }
+
+    @Override
+    public boolean remove(T anEntry) {
+        return false;
+    }
+
+    @Override
+    public void clear() {
+
+    }
 
     public ArrayBag()
     {
@@ -13,11 +31,11 @@ public class ArrayBag<T> extends BagInterface<T> {
 
     public ArrayBag(int capacity)
     {
-        T[] tempBag = (T[]) new Object[capacity];
-        bag = tempBag;
+        bag = (T[]) new Object[capacity];
         numberOfEntries = 0;
     }
 
+    @Override
     public boolean add(T newEntry)
     {
         boolean result = true;
@@ -65,6 +83,11 @@ public class ArrayBag<T> extends BagInterface<T> {
     public int getFrequencyOf(T anEntry)
     {
 
+    }
+
+    @Override
+    public boolean contains(T anEntry) {
+        return false;
     }
 
 }
