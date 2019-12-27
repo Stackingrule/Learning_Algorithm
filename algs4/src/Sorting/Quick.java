@@ -1,6 +1,6 @@
 package Sorting;
 
-import Fundamentals.StdRandom;
+
 import static Sorting.Example.less;
 import static Sorting.Example.exch;
 
